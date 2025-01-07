@@ -36,7 +36,7 @@ Unit testing, incorporating testing into the CI/CD pipeline which improves the s
 
 ---
 
-## Q4. **DevOps KPIs 
+## Q4. **DevOps KPIs**
 KPI(Key Performance Indicators) - used to measure and track the success of DevOps initiatives.
 - Deployment Frequency
 - Change Failure Rate
