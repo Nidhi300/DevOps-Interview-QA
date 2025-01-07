@@ -1,29 +1,23 @@
-## 1. NGINX, Reverse Proxy, Proxy-Pass, and More
+## Q1. NGINX, Reverse Proxy, Proxy-Pass, and More
 
 ## **NGINX**
 - **Web Server**: Serves web pages to users when they visit a website.
 - **Reverse Proxy Server**: Sits between users and servers to manage traffic.
 - **Load Balancer**: Distributes user requests across multiple servers to ensure the website runs smoothly.
 
----
-
 ## **NGINX Ingress Controller**
 - Routes traffic from users to Kubernetes services inside the cluster.
-
----
 
 ## **Reverse Proxy**
 - Routes traffic from users to backend server.
   - **Flow**: `Client → Reverse Proxy → Backend Server`
-
----
 
 ## **Proxy-Pass**
 - Directive used in the NGINX configuration to forward incoming client requests to an upstream server.
 
 ---
 
-## **SSL Encryption in Reverse Proxy NGINX**
+## Q2. **SSL Encryption in Reverse Proxy NGINX**
 ### Helps secure communication between the user and the proxy server.
 
 **How it works**:
