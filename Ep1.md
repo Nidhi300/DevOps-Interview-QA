@@ -1,24 +1,25 @@
 ## Q1. NGINX, Reverse Proxy, Proxy-Pass, and More
 
-## **NGINX**
+**NGINX**
 - **Web Server**: Serves web pages to users when they visit a website.
 - **Reverse Proxy Server**: Sits between users and servers to manage traffic.
 - **Load Balancer**: Distributes user requests across multiple servers to ensure the website runs smoothly.
 
-## **NGINX Ingress Controller**
+**NGINX Ingress Controller**
 - Routes traffic from users to Kubernetes services inside the cluster.
 
-## **Reverse Proxy**
+**Reverse Proxy**
 - Routes traffic from users to backend server.
   - **Flow**: `Client → Reverse Proxy → Backend Server`
 
-## **Proxy-Pass**
+**Proxy-Pass**
 - Directive used in the NGINX configuration to forward incoming client requests to an upstream server.
 
 ---
 
 ## Q2. **SSL Encryption in Reverse Proxy NGINX**
-### Helps secure communication between the user and the proxy server.
+
+Helps secure communication between the user and the proxy server.
 
 **How it works**:
 1. **Client to NGINX**: 
@@ -29,25 +30,27 @@
 
 ---
 
-## **How to Automate Testing in DevOps Lifecycle**
-- **Unit Testing**: Automate unit tests to validate individual components.
-- **Incorporating Testing into CI/CD Pipelines**: Improves speed, quality, and reliability of software delivery.
+## Q3. **How to Automate Testing in DevOps Lifecycle**
+
+Unit testing, incorporating testing into the CI/CD pipeline which improves the speed, quality, and reliability of the software.
 
 ---
 
-## **DevOps KPIs (Key Performance Indicators)**
-- **Deployment Frequency**
-- **Change Failure Rate**
-- **Customer Satisfaction (CSAT)**
-- **Incident Frequency**
-- **Cost of Downtime**
-- **Infrastructure Utilization**
-- **Deployment Time**
+## Q4. **DevOps KPIs 
+KPI(Key Performance Indicators) - used to measure and track the success of DevOps initiatives.
+- Deployment Frequency
+- Change Failure Rate
+- Customer Satisfaction (CSAT)
+- Incident Frequency
+- Cost of Downtime
+- Infrastructure Utilization
+- Deployment Time
 
 ---
 
-## **Using Boto3 to Create an EC2 Instance**
-For detailed steps, visit [this blog](https://blog.knoldus.com/how-to-create-ec2-instance-using-python3-with-boto3/).
+## Q5. **Using Boto3 to Create an EC2 Instance**
+
+[this blog](https://blog.knoldus.com/how-to-create-ec2-instance-using-python3-with-boto3/).
 
 **Python Code Example**:
 ```python
