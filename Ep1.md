@@ -1,4 +1,4 @@
-## Q1. NGINX, Reverse Proxy, Proxy-Pass, and More
+## Q1. NGINX, Reverse Proxy, Proxy-Pass
 
 **NGINX**
 - **Web Server**: Serves web pages to users when they visit a website.
