@@ -1,4 +1,4 @@
-# DevOps Interview Q&A: NGINX, Reverse Proxy, Proxy-Pass, and More
+## 1. NGINX, Reverse Proxy, Proxy-Pass, and More
 
 ## **NGINX**
 - **Web Server**: Serves web pages to users when they visit a website.
