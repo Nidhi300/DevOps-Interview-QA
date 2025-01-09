@@ -71,7 +71,7 @@ instance = ec2.create_instances(
 
 # Print the instance ID of the created instance
 print(f"EC2 instance created with ID: {instance[0].id}")
-
+```
 ---
 
 ## Q6. **Cronjob to delete unused docker image**
