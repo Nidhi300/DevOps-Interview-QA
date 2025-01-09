@@ -71,3 +71,20 @@ instance = ec2.create_instances(
 
 # Print the instance ID of the created instance
 print(f"EC2 instance created with ID: {instance[0].id}")
+
+---
+
+## Q6. **Cronjob to delete unused docker image**
+
+Create a Script:
+#!/bin/bash
+# Script to clean up unused Docker images
+docker image prune -f
+
+Save it as delete_unused_images.sh and ensure it is executable:
+chmod +x delete_unused_images.sh
+
+Update the Cron Job:
+0 2 * * * /path/to/delete_unused_images.sh
+
+This runs the cleanup daily at 2:00 AM.
